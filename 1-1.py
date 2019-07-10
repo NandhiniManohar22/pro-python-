@@ -7,5 +7,5 @@ num=int(input())
 char=[]
 for _ in range(0,num):
    char.append(input())
-che.sort()
+char.sort()
 print(longest(char[0],char[num-1]))
