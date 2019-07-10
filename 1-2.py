@@ -1,8 +1,8 @@
 from itertools import combinations
-n1,n2=input().split()
-n2=int(n2)
+n,m= input().split()
+m=int(m)
 sha=[]
-hue=combinations(n1,len(n1)-n2)
-for n in hue:
-  sha.append("".join(n))
+hue= combinations(n,len(n)-m)
+for i in hue:
+  sha.append("".join(i))
   print(min(sha))
