@@ -1,7 +1,6 @@
-a=int(input())
-b=0
-while(a>0):
-	a=a // 10
-	b = b + 1
-
-print(b)
+a1=int(input())
+b1=0
+while(a1>0):
+	a1=a1 // 10
+	b1 = b1 + 1
+print(b1)
