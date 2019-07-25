@@ -1,11 +1,11 @@
-  nan,l1=map(str,input().split())
-n=0
-if len(nan)>len(l1):
-  nan,l1=l1,nan
-m=0
-while m<len(nan):
-  n+=(s(l1[m])-s(nan[m]))
-  m+=1
-for m in range(m,len(l1)):
-  n+=s(l1[m])-s('a')+1
-print(n)
+kk1,l1=map(str,input().split())
+east=0
+if len(kk1)>len(l1):
+  kk1,l1=l1,kk1
+tt1=0
+while tt1<len(kk1):
+  east+=(ord(l1[tt1])-ord(kt1[tt1]))
+  tt1+=1
+for tt1 in range(tt1,len(l1)):
+  east+=ord(l1[tt1])-ord('a')+1
+print(east)
