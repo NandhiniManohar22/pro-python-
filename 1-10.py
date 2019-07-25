@@ -1,7 +1,7 @@
-x=int(input())
-y=0
-while(x>0):
-	x=x // 10
-	y = y + 1
+a=int(input())
+b=0
+while(a>0):
+	a=a // 10
+	b = b + 1
 
-print(y)
+print(b)
